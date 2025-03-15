@@ -10,6 +10,7 @@ jobs:
     strategy:
       matrix:
         go: ['1.14', '1.15']
+    name: Golang {{ matrix.go-version }} test
 
     steps:
       - uses: action/checkout@v2
