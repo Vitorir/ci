@@ -11,5 +11,9 @@ func Soma(a int, b int) int {
 }
 
 func Subtracao(a int, b int) int {
-	return a -b 
+	return a - b
+}
+
+func Multiplicacao(a int, b int) int {
+	return a * b
 }
